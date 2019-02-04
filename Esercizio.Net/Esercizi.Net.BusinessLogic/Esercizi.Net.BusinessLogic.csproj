@@ -44,6 +44,7 @@
     <Compile Include="IFactory.cs" />
     <Compile Include="ITransactionFactory.cs" />
     <Compile Include="TransactionFactory.cs" />
+    <Compile Include="TransactionManager.cs" />
     <Compile Include="Transazione.cs" />
     <Compile Include="ITransazione.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
