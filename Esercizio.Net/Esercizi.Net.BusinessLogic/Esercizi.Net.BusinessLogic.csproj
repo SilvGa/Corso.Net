@@ -41,15 +41,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IFactory.cs" />
-    <Compile Include="ITransactionFactory.cs" />
-    <Compile Include="TransactionFactory.cs" />
-    <Compile Include="TransactionManager.cs" />
-    <Compile Include="Transazione.cs" />
-    <Compile Include="ITransazione.cs" />
+    <Compile Include="categoria\Categoria.cs" />
+    <Compile Include="categoria\Category.cs" />
+    <Compile Include="categoria\CategoryFactory.cs" />
+    <Compile Include="categoria\CategoryManager.cs" />
+    <Compile Include="categoria\ICategory.cs" />
+    <Compile Include="categoria\ICategoryFactory.cs" />
+    <Compile Include="categoria\IFactoryC.cs" />
+    <Compile Include="transazione\IFactory.cs" />
+    <Compile Include="transazione\ITransactionFactory.cs" />
+    <Compile Include="TipoTransazione.cs" />
+    <Compile Include="transazione\TransactionFactory.cs" />
+    <Compile Include="transazione\TransactionManager.cs" />
+    <Compile Include="transazione\Transazione.cs" />
+    <Compile Include="transazione\ITransazione.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TransazioneC.cs" />
-    <Compile Include="TransazioneGK.cs" />
+    <Compile Include="transazione\TransazioneC.cs" />
+    <Compile Include="transazione\TransazioneGK.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

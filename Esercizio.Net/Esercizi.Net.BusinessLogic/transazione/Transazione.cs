@@ -8,25 +8,12 @@ namespace Esercizi.Net.BusinessLogic
 {
     public abstract class Transazione : ITransazione
     {
-        private string _tipo;
-        public string Tipo
-        {
-            get
-            {
-                return _tipo;
-            }
-            set
-            {
-                if (value == "Spesa" || value == "Ricavo")
-                {
-                    _tipo = value;
-                }
-            }
-        }
+        private TipoTransazione _tipo;
+        public TipoTransazione Tipo{ get; set; }
 
         public DateTime DataTransazione { get; set; }
 
-        public string Categoria { get; set; }
+        public ICategory Categoria { get; set; }
 
         public string Descrizione { get; set; }
 
@@ -36,7 +23,8 @@ namespace Esercizi.Net.BusinessLogic
         {
             string result = string.Empty;
             result += "Data transazione: " + DataTransazione + ",\n";
-            result += "Categoria: " + Categoria + ",\n";
+            result += "Tipo: " + Tipo + ",\n";
+            result += "Categoria: " + Categoria.NomeCategoria + ",\n";
             result += "Descrizione: " + Descrizione + ",\n";
             result += "Importo: " + Importo + ".\n";
 
