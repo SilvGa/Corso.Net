@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esercizio.Net.ConsoleApp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esercizi.Net.BusinessLogic", "Esercizi.Net.BusinessLogic\Esercizi.Net.BusinessLogic.csproj", "{C1983105-3126-42D3-BDD8-C435BFD3D5FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esercizi.Net.DemoBST", "Esercizi.Net.DemoBST\Esercizi.Net.DemoBST.csproj", "{AEEFF0F6-9095-4126-9C63-414A56580543}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C1983105-3126-42D3-BDD8-C435BFD3D5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1983105-3126-42D3-BDD8-C435BFD3D5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1983105-3126-42D3-BDD8-C435BFD3D5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEFF0F6-9095-4126-9C63-414A56580543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEFF0F6-9095-4126-9C63-414A56580543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEFF0F6-9095-4126-9C63-414A56580543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEFF0F6-9095-4126-9C63-414A56580543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
